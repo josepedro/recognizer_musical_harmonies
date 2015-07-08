@@ -3,6 +3,7 @@ This source code is a prototype written in matlab of computational solution of m
 
 ## Example of Use
 Run the script "example.m". The results should be liki this:
+
 Chords over time: 
   Columns 1 through 14
 
