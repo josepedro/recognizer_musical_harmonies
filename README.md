@@ -2,9 +2,10 @@
 This source code is a prototype written in matlab of computational solution of musical chords recognition.
 
 ## Example of Use
-Run the script "example.m". The results should be liki this:
+Run the script "example.m". The results should be like this:
 
 Chords over time: 
+
   Columns 1 through 14
 
     'C'    'C/G'    'C/G'    'C/G'    'Am'    'Am'    'Am/C'    'Em'    'Em'    'Em'    'Em/G'    'Em'    'F'    'F'
