@@ -1,6 +1,6 @@
-function [notes_time_44100, chords_time_44100, chord_pitch_44100] = DA3(signal_audio_path)
+function [chords_time, chord_pitch] = main(signal_audio_path)
     [signal, fs] = wavread(signal_audio_path);
-    [notes_time_44100, chords_time_44100, chord_pitch_44100, chord_pitch_number] = DA3_window_44100(signal, fs);
+    [notes_time_44100, chords_time, chord_pitch, chord_pitch_number] = DA3_window_44100(signal, fs);
 end
 
 function [notes_time, chords_with_bass, chord_pitch, chord_pitch_number] = DA3_window_44100(signal, fs)
