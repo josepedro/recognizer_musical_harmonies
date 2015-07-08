@@ -1,5 +1,5 @@
 # Recognizer Musical Harmonies
-This source code is a prototype written in matlab of computational solution of musical chords recognition.
+This source code is a prototype written in MATLAB of computational solution of musical chords recognition.
 
 ## Example of Use
 Run the script "example.m". The results should be like this:
